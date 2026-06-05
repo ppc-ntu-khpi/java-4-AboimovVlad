@@ -1,0 +1,20 @@
+@startuml
+class Animal {
+  - name: String
+  - weight: int
+  + eat()
+  + speak()
+  + toString()
+}
+
+class Sloth {
+  - species: String
+  + climb()
+  + hang()
+  + sleep()
+  + eat()
+  + speak()
+}
+
+Animal <|-- Sloth
+@enduml
